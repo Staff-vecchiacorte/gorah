@@ -34,7 +34,7 @@ export const tartare: MenuItem[] = [
     price: '10€'
   },
   {
-    name: 'Tartare di Gambero',
+    name: 'Tartare di Tonno',
     price: '10€'
   },
   {
