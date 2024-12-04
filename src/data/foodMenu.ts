@@ -70,7 +70,7 @@ export const degustazioni: DegustationMenu[] = [
     courses: [
       {
         dish: 'Tris di Mini Tartare',
-        description: 'Manzo, salmone e gambero per un\'esperienza varia e sofisticata.',
+        description: 'Manzo, salmone e tonno per un\'esperienza varia e sofisticata.',
         wine: {
           name: 'Metodo Classico Brut Campania',
           notes: 'Bollicine eleganti, con note di crosta di pane e agrumi.'
