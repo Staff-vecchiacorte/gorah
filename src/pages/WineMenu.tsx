@@ -3,9 +3,9 @@ import { motion } from 'framer-motion';
 import { ChevronLeft } from 'lucide-react';
 import { useNavigate } from 'react-router-dom';
 import MenuSection from '../components/MenuSection';
-import { signatureDrinks, classicDrinks, nonAlcoholicDrinks, whiteWines, redWines, sparklingWines } from '../data/drinkMenu';
+import { whiteWines, redWines, sparklingWines } from '../data/wineMenu';
 
-function DrinkMenu() {
+function WineMenu() {
   const navigate = useNavigate();
 
   return (
@@ -26,13 +26,14 @@ function DrinkMenu() {
       <img src="/logo.png" alt="Gorah" className="w-40 mx-auto mb-8" />
 
       <div className="max-w-2xl mx-auto space-y-12">
-        <MenuSection title="I Nostri Drink" items={signatureDrinks} />
-        <MenuSection title="Classici" items={classicDrinks} showRatings />
-        <MenuSection title="Analcolici" items={nonAlcoholicDrinks} showRatings />
-  
+        
+        
+        <MenuSection title="Vini Bianchi" items={whiteWines} />
+        <MenuSection title="Vini Rossi" items={redWines} />
+        <MenuSection title="Bollicine" items={sparklingWines} />
       </div>
     </motion.div>
   );
 }
 
-export default DrinkMenu;
+export default WineMenu;
