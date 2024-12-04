@@ -34,7 +34,7 @@ export const tartare: MenuItem[] = [
     price: '10€'
   },
   {
-    name: 'Tartare di Scampi',
+    name: 'Tartare di Gambero',
     price: '10€'
   },
   {
@@ -101,7 +101,7 @@ export const degustazioni: DegustationMenu[] = [
     courses: [
       {
         dish: 'Tris di Mini Tartare',
-        description: 'Manzo, salmone e scampi per un\'esperienza varia e sofisticata.',
+        description: 'Manzo, salmone e gamberi per un\'esperienza varia e sofisticata.',
         wine: {
           name: 'Metodo Classico Brut Campania',
           notes: 'Bollicine eleganti, con note di crosta di pane e agrumi.'

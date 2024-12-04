@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 import { ChevronLeft } from 'lucide-react';
 import { useNavigate } from 'react-router-dom';
 import MenuSection from '../components/MenuSection';
-import { signatureDrinks, classicDrinks, nonAlcoholicDrinks } from '../data/drinkMenu';
+import { signatureDrinks, classicDrinks, nonAlcoholicDrinks, whiteWines, redWines, sparklingWines } from '../data/drinkMenu';
 
 function DrinkMenu() {
   const navigate = useNavigate();
@@ -29,6 +29,10 @@ function DrinkMenu() {
         <MenuSection title="I Nostri Drink" items={signatureDrinks} />
         <MenuSection title="Classici" items={classicDrinks} showRatings />
         <MenuSection title="Analcolici" items={nonAlcoholicDrinks} showRatings />
+        
+        <MenuSection title="Vini Bianchi" items={whiteWines} />
+        <MenuSection title="Vini Rossi" items={redWines} />
+        <MenuSection title="Bollicine" items={sparklingWines} />
       </div>
     </motion.div>
   );
