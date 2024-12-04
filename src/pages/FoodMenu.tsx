@@ -37,7 +37,7 @@ function FoodMenu() {
           viewport={{ once: true }}
           className="space-y-8"
         >
-          <h2 className="text-2xl font-semibold">Percorsi Degustazione</h2>
+          <h2 className="text-2xl font-semibold">Percorso Degustativo</h2>
           {degustazioni.map((menu, index) => (
             <DegustationSection key={index} menu={menu} />
           ))}
