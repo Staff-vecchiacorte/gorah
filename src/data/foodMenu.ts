@@ -57,6 +57,14 @@ export const specialita: MenuItem[] = [
     name: 'Vellutata di Ceci',
     description: 'Con crostini dorati e olio evo caiazzano',
     price: '6€'
+  },
+  {
+    name: 'Minibun',
+    price: '15€'
+  },
+  {
+    name: 'Tagliata di tonno in crosta di pistacchio con riduzione di soia',
+    price: '16€'
   }
 ];
 
