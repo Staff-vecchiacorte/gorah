@@ -1,7 +1,7 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import { motion } from 'framer-motion';
-import { UtensilsCrossed, Wine, Bottle, Martini } from 'lucide-react';
+import { UtensilsCrossed, Wine, Bottle, Martini, Triangle } from 'lucide-react';
 
 function Welcome() {
   const navigate = useNavigate();
@@ -51,6 +51,16 @@ function Welcome() {
         >
           <Martini size={24} />
           Menu Drink
+        </motion.button>
+
+        <motion.button
+          whileHover={{ scale: 1.05 }}
+          whileTap={{ scale: 0.95 }}
+          onClick={() => navigate('/allergeni')}
+          className="flex items-center gap-3 bg-white text-[#1a4c4c] px-8 py-4 rounded-lg text-lg font-semibold"
+        >
+          <Triangle size={24} style={{ color: '#295858' }} />
+          Allergeni
         </motion.button>
       </div>
     </motion.div>
