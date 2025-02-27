@@ -5,6 +5,7 @@ import Welcome from './pages/Welcome';
 import FoodMenu from './pages/FoodMenu';
 import DrinkMenu from './pages/DrinkMenu';
 import WineMenu from './pages/WineMenu';
+import Allergeni from './pages/Allergeni';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
           <Route path="/food" element={<FoodMenu />} />
           <Route path="/drinks" element={<DrinkMenu />} />
           <Route path="/wines" element={<WineMenu />} />
+          <Route path="/allergeni" element={<Allergeni />} />
         </Routes>
       </AnimatePresence>
     </BrowserRouter>
