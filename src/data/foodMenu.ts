@@ -46,11 +46,17 @@ export const foodMenu: MenuItem[] = [
   },
   {
     name: 'Poké del Matese',
-    price: '10€'
+    description: 'Riso Venere, avocado, mango, formaggio, noci e straccetti di pollo fritti',
+    price: '12€'
+  },
+  {
+    name: 'Tacos',
+    description: 'Genovese di manzo e fonduta di pecorino',
+    price: '5€'
   },
   {
     name: 'Minibun',
-    description: 'Due con hamburger, insalata mista e fonduta di parmigiano. Due con pulled pork homemade, verdure croccanti e salsa Gorah',
+    description: 'Due con hamburger di chianina, insalata mista e fonduta di parmigiano. Due con pulled pork homemade, verdure croccanti e salsa Gorah',
     price: '15€'
   },
   {
