@@ -27,7 +27,7 @@ export const foodMenu: MenuItem[] = [
   },
   {
     name: 'Tartare di Salmone',
-    description: 'Con burrata, zest di arancia e sale Maldini 100g',
+    description: 'Con burrata, zest di arancia e sale Maldon 100g',
     price: '10€'
   },
   {
