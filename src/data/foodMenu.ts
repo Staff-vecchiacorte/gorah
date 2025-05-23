@@ -31,7 +31,7 @@ export const foodMenu: MenuItem[] = [
     price: '10€'
   },
   {
-    name: 'Tartare di Gambero Rosso',
+    name: 'Tartare di Gambero',
     description: '',
     price: '12€'
   },
@@ -61,7 +61,7 @@ export const foodMenu: MenuItem[] = [
   },
   {
     name: 'Chicken Royale',
-    description: 'Pollo fritto, maionese, cheddar, bacon e insalata',
+    description: 'Pollo fritto, maionese al bacon, cheddar, bacon e insalata',
     price: '10€'
   },
   {
