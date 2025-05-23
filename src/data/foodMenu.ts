@@ -27,12 +27,17 @@ export const foodMenu: MenuItem[] = [
   },
   {
     name: 'Tartare di Tonno',
-    description: '100g',
+    description: '',
     price: '10€'
   },
   {
     name: 'Tartare di Gambero Rosso',
-    description: '100g',
+    description: '',
+    price: '12€'
+  },
+  {
+    name: 'Tartare di Ricciola',
+    description: '',
     price: '12€'
   },
   {
@@ -53,6 +58,11 @@ export const foodMenu: MenuItem[] = [
     name: 'Minibun',
     description: 'Due con hamburger di chianina, insalata mista e fonduta di parmigiano. Due con pulled pork homemade, verdure croccanti e salsa Gorah',
     price: '15€'
+  },
+  {
+    name: 'Chicken Royale',
+    description: 'Pollo fritto, maionese, cheddar, bacon e insalata',
+    price: '10€'
   },
   {
     name: 'Tagliata di Tonno in Crosta di Pistacchio',
