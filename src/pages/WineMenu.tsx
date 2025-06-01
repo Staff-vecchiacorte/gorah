@@ -8,6 +8,8 @@ import { whiteWines, redWines, sparklingWines } from '../data/wineMenu';
 function WineMenu() {
   const navigate = useNavigate();
 
+  const noWinesAvailable = whiteWines.length === 0 && redWines.length === 0 && sparklingWines.length === 0;
+
   return (
     <motion.div
       initial={{ opacity: 0 }}
@@ -26,11 +28,17 @@ function WineMenu() {
       <img src="/logo.png" alt="Gorah" className="w-40 mx-auto mb-8" />
 
       <div className="max-w-2xl mx-auto space-y-12">
-        
-        
-        <MenuSection title="Vini Bianchi" items={whiteWines} />
-        <MenuSection title="Vini Rossi" items={redWines} />
-        <MenuSection title="Bollicine" items={sparklingWines} />
+        {noWinesAvailable ? (
+          <div className="text-center py-10">
+            <p className="text-xl">Per la selezione dei vini, rivolgersi allo staff.</p>
+          </div>
+        ) : (
+          <>
+            <MenuSection title="Vini Bianchi" items={whiteWines} />
+            <MenuSection title="Vini Rossi" items={redWines} />
+            <MenuSection title="Bollicine" items={sparklingWines} />
+          </>
+        )}
       </div>
     </motion.div>
   );
