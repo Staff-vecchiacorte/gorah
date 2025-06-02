@@ -60,7 +60,7 @@ export const foodMenu: MenuItem[] = [
     price: '15€'
   },
   {
-    name: 'Chicken Royale',
+    name: 'Chicken Royale Burger',
     description: 'Pollo fritto, maionese al bacon, cheddar, bacon e insalata',
     price: '10€'
   },
