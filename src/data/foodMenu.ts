@@ -66,7 +66,7 @@ export const foodMenu: MenuItem[] = [
   },
   {
     name: 'Friggy Bun',
-    description: 'Panino home made aromatizzato al pomodoro, hamburger di scottona, provola, friggitelli con datterino rosso e maionese',
+    description: 'Panino con hamburger di scottona, provola, friggitelli con datterino rosso e maionese',
     price: '10€'
   },
   {

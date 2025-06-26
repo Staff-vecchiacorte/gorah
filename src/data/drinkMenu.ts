@@ -6,6 +6,28 @@ export const signatureDrinks: DrinkMenuItem[] = [
     description: 'Bitter Campari, Punt e Mes, cherry bitters, ciliegia al maraschino',
     price: '8€'
   },
+
+  {
+    name: 'Gran Caramel',
+    description: 'Whiskey alla mela verde, sciroppo alla cannella e caramello',
+    price: '9€'
+  },
+  {
+    name: 'Mint-Russian',
+    description: 'Vodka liscia, sciroppo alla menta, lime pestato, zucchero di canna e Schweppes al pompelmo rosa',
+    price: '9€'
+  },
+  {
+    name: 'Tropical Summer',
+    description: 'Rum scuro, sciroppo di zucchero, succo di limone, passion fruit, liquore al bergamotto e Schweppes al pompelmo rosa',
+    price: '8€'
+  },
+  {
+    name: "Romy's Margarita",
+    description: 'Tequila, succo di lime, sciroppo alla fragola, liquore al bergamotto e sciroppo all’ananas',
+    price: '8€'
+  },
+  
   {
     name: 'BaRomy',
     description: 'Rum invecchiato, liquore alla banana, sciroppo passion fruit, succo di limone fresco, albume pastorizzato',
