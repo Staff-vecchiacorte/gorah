@@ -7,11 +7,6 @@ export const signatureDrinks: DrinkMenuItem[] = [
     price: '8€'
   },
   {
-    name: 'New Fashioned',
-    description: 'Whiskey cannella, zucchero, chocolate bitters',
-    price: '8€'
-  },
-  {
     name: 'BaRomy',
     description: 'Rum invecchiato, liquore alla banana, sciroppo passion fruit, succo di limone fresco, albume pastorizzato',
     price: '8€'
@@ -19,16 +14,6 @@ export const signatureDrinks: DrinkMenuItem[] = [
   {
     name: 'Tiramisù Scomposto',
     description: 'Bayles, kahlúa, espresso, vodka, savoiardo',
-    price: '8€'
-  },
-  {
-    name: 'Winter Daiquiri',
-    description: 'Frangelico, rum bianco, succo di limone fresco, sciroppo di zucchero, albume pastorizzato',
-    price: '8€'
-  },
-  {
-    name: 'Croccantissimo',
-    description: 'Whiskey bourbon, succo di limone fresco, sciroppo di zucchero, sciroppo al pop corn, albume pastorizzato',
     price: '8€'
   },
   {
@@ -346,6 +331,39 @@ export const nonAlcoholicDrinks: DrinkMenuItem[] = [
       aroma: 4,
       taste: 5,
       calories: '90 kcal'
+    }
+  },
+  {
+    name: 'Tricolore',
+    description: 'Succo di lime, sciroppo di menta, granatina, soda',
+    price: '5€',
+    ratings: {
+      intensity: 2,
+      aroma: 3,
+      taste: 4,
+      calories: '100 kcal'
+    }
+  },
+  {
+    name: 'Virgin Caipiroska',
+    description: 'Lime pestato, zucchero di canna, soda al limone',
+    price: '5€',
+    ratings: {
+      intensity: 2,
+      aroma: 3,
+      taste: 4,
+      calories: '80 kcal'
+    }
+  },
+  {
+    name: 'Virgin Mai-Tai',
+    description: 'Succo di ananas, succo di arancia, sciroppo di orzata, lime fresco',
+    price: '5€',
+    ratings: {
+      intensity: 2,
+      aroma: 4,
+      taste: 5,
+      calories: '140 kcal'
     }
   }
 ];

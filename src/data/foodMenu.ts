@@ -31,12 +31,12 @@ export const foodMenu: MenuItem[] = [
     price: '10€'
   },
   {
-    name: 'Tartare di Gambero',
+    name: 'Tartare di Gambero Rosa',
     description: '',
     price: '12€'
   },
   {
-    name: 'Tartare di Ricciola',
+    name: 'Tartare di Gamberone',
     description: '',
     price: '12€'
   },
@@ -62,6 +62,11 @@ export const foodMenu: MenuItem[] = [
   {
     name: 'Chicken Royale Burger',
     description: 'Pollo fritto, maionese al bacon, cheddar, bacon e insalata',
+    price: '10€'
+  },
+  {
+    name: 'Friggy Bun',
+    description: 'Panino home made aromatizzato al pomodoro, hamburger di scottona, provola, friggitelli con datterino rosso e maionese',
     price: '10€'
   },
   {
