@@ -8,7 +8,7 @@ export const signatureDrinks: DrinkMenuItem[] = [
   },
 
   {
-    name: 'Gran Caramel',
+    name: 'Green Caramel',
     description: 'Whiskey alla mela verde, sciroppo alla cannella e caramello',
     price: '9€'
   },
