@@ -24,18 +24,18 @@ export const signatureDrinks: DrinkMenuItem[] = [
   },
   {
     name: "Romy's Margarita",
-    description: 'Tequila, succo di lime, sciroppo alla fragola, liquore al bergamotto e sciroppo all’ananas',
+    description: 'Tequila, succo di lime, sciroppo al passion fruit, liquore al bergamotto e sciroppo d’agave',
     price: '8€'
   },
   
   {
     name: 'BaRomy',
-    description: 'Rum invecchiato, liquore alla banana, sciroppo passion fruit, succo di limone fresco, albume pastorizzato',
+    description: 'Rum invecchiato, liquore alla banana, sciroppo di zucchero, succo di limone fresco, albume pastorizzato',
     price: '8€'
   },
   {
     name: 'Tiramisù Scomposto',
-    description: 'Bayles, kahlúa, espresso, vodka, savoiardo',
+    description: 'Bayles, kahlúa, espresso, vodka, savoiardo, maraschino',
     price: '8€'
   },
   {
@@ -50,12 +50,12 @@ export const signatureDrinks: DrinkMenuItem[] = [
   },
   {
     name: 'Sparrow',
-    description: 'Tris di rum perfettamente bilanciato, succo di lime fresco, sciroppo di zucchero, angostura bitters, Ginger beer',
+    description: 'Tris di rum perfettamente bilanciato, succo di lime fresco, sciroppo di zucchero, angostura bitters, Ginger beer, granatina',
     price: '8€'
   },
   {
     name: 'Il Pippotto',
-    description: 'Shochu, liquore al bergamotto, passion fruit, succo di limone fresco, albume pastorizzato, affiancato con uno short di prosecco',
+    description: 'Shochu, liquore al bergamotto, liquore alla resina, passion fruit, succo di limone fresco, albume pastorizzato, affiancato con uno short di prosecco',
     price: '10€'
   },
   {
