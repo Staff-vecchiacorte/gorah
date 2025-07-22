@@ -41,6 +41,11 @@ export const foodMenu: MenuItem[] = [
     price: '12€'
   },
   {
+    name: 'Tartare di Scampo',
+    description: '',
+    price: '14€'
+  },
+  {
     name: 'Tris di Mini Tartare',
     price: '15€'
   },
